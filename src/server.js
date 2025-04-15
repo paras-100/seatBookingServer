@@ -15,7 +15,7 @@ app.use(
     origin: [
       "http://localhost:3000",
       "https://seat-booking-client-vjqj.vercel.app",
-    ], // ✅ Change to your frontend URL
+    ],
     credentials: true,
   })
 );

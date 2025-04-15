@@ -1,6 +1,7 @@
 const { DataTypes } = require("sequelize");
 const sequelize = require("../config/database");
 
+// Define the Seats model
 const Seats = sequelize.define("Seats", {
   totalSeats: {
     type: DataTypes.INTEGER,
